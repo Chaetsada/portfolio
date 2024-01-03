@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Oswald:wght@300;500;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .container {
+    @apply max-w-[1400px] mx-auto
+  }
+  .absolute-center{
+    @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
+  }
+}
